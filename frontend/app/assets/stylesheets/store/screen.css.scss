@@ -1,4 +1,4 @@
-@import 'variables';
+@import 'store/variables';
 @import 'font-awesome';
 
 /*--------------------------------------*/
@@ -152,7 +152,7 @@ span.required {
 fieldset {
   margin: 0;
   min-width: 100%;
-  
+
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
@@ -739,7 +739,7 @@ ul#products {
 
 #billing {
   input[type="text"], input[type="email"],
-  input[type="tel"], input[type="number"], 
+  input[type="tel"], input[type="number"],
   select, textarea {
     width: 100%;
   }
@@ -979,7 +979,7 @@ div[data-hook="inside_cart_form"] {
 
 .adjustment:nth-child(even) {
   background: #eaeaea;
-  
+
 }
 
 /*--------------------------------------*/
